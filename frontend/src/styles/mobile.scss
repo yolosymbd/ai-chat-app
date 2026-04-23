@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  .bubble-box { max-width: 85%; }
+  .chat-header { padding: 14px 16px; }
+  .chat-header h2 { font-size: 18px; }
+  .message-container { padding: 20px 12px; }
+  .bubble { padding: 14px 16px; font-size: 14px; }
+  .avatar { width: 40px; height: 40px; }
+
+  .chat-page {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    max-height: 240px;
+    border-bottom: 1px solid #eee;
+  }
+  .main-box {
+    width: 100%;
+    height: calc(100vh - 240px);
+  }
+  .bubble-box {
+    max-width: 82% !important;
+  }
+  .chat-header h2 {
+    font-size: 16px;
+  }
+  .quick-questions {
+    grid-template-columns: 1fr;
+  }
+}

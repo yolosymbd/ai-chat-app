@@ -1,0 +1,38 @@
+/* 浅色 */
+.theme-light {
+  --bg: #fff;
+  --bg-color:#000;
+  --sider-bg: #000407;
+  --text: #111;
+  --bubble-ai: #ffffff;
+  --bubble-mine: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+  --border: #e5e7eb;
+  --three-border-color:#fff;
+  --three-color:#fff;
+}
+
+/* 深色 */
+.theme-dark {
+  --bg: #18181b;
+  --bg-color:#fff;
+  --sider-bg: #0f0f11;
+  --text: #eee;
+  --bubble-ai: #27272a;
+  --bubble-mine: #3f3f46;
+  --border: #3f3f46;
+  --three-border-color: #1df1d8;
+  --three-color:#1df1d8;
+}
+
+/* 科技 */
+.theme-tech {
+  --bg: #000103;
+  --bg-color:#fff;
+  --sider-bg: #020612;
+  --text: #e0f7ff;
+  --bubble-ai: #0b1222;
+  --bubble-mine: #102044;
+  --border: #1e2a4a;
+  --three-border-color: #3b82f6;
+  --three-color:#3b82f6;
+}

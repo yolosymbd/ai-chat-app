@@ -1,0 +1,25 @@
+# ========== 后端API密钥 【绝对不上传Gitee】 ==========
+backend/.env
+.env
+
+# ========== Python后端缓存、编译文件 ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# ========== SQLite数据库、RAG向量库文件 ==========
+*.db
+*.sqlite
+chat.db
+faiss.index
+chunks.pkl
+
+# ========== 前端全局屏蔽继承 ==========
+frontend/node_modules
+frontend/dist
+
+# ========== 系统&编辑器垃圾文件 ==========
+.vscode/
+.DS_Store

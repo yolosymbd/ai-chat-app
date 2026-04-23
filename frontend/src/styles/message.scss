@@ -1,0 +1,227 @@
+.message-container {
+  flex: 1;
+  padding: 28px 24px;
+  overflow-y: auto;
+  background: var(--bg);
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+.message-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.message-container::-webkit-scrollbar-thumb {
+  background: #ced4da;
+  border-radius: 3px;
+}
+
+.loading-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #888;
+  font-size: 14px;
+  padding: 16px;
+}
+
+.loading-icon {
+  animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.message-item {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.message-item.mine {
+  justify-content: flex-end;
+}
+
+.message-item.ai {
+  justify-content: flex-start;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ai-avatar {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+}
+
+.user-avatar {
+  background: linear-gradient(135deg, #ec4899 0%, #f43f5e 100%);
+}
+
+.bubble-box {
+  max-width: 55% !important;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bubble {
+  padding: 16px 20px !important;
+  border-radius: 8px !important;
+  background: var(--bubble-ai) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  line-height: 1.6 !important;
+  font-size: 14px !important;
+  word-break: break-word;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  transition: all 0.2s;
+}
+
+.bubble:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.message-item.mine .bubble {
+  background: var(--bubble-mine) !important;
+  border-bottom-right-radius: 6px;
+  text-align: left;
+  color: #fff;
+}
+
+.message-item.ai .bubble {
+  border-bottom-left-radius: 6px;
+  text-align: left;
+}
+
+.type-cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1.2em;
+  background: #3b82f6;
+  margin-left: 4px;
+  animation: blink 1s infinite step-end;
+  vertical-align: text-bottom;
+  position: relative;
+  top: 2px;
+}
+
+.message-item.mine .type-cursor {
+  background: white;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.msg-tool {
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  color: #6c757d;
+  padding: 4px 8px;
+}
+
+.msg-tool span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.msg-tool span:hover {
+  color: var(--bg-color);
+  transform: translateY(-1px);
+}
+
+.msg-time {
+  font-size: 12px;
+  color: #888;
+  text-align: right;
+  margin-top: 4px;
+}
+
+.msg-rate {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+  color: #999;
+  cursor: pointer;
+}
+
+.msg-rate el-icon:hover {
+  color: #333;
+}
+
+:deep(.green img) {
+  filter: invert(39%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+:deep(.red img) {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(0deg) brightness(98%) contrast(103%);
+}
+.msg-rate .el-icon {
+  cursor: pointer;
+  margin: 0 6px;
+}
+.msg-rate img {
+  width: 20px;height: 20px;
+}
+
+/* 工具卡片 */
+.tool-card {
+  background: #f0f7ff;
+  border: 1px solid #409eff;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 8px;
+  animation: fadeIn 0.3s ease-out;
+}
+.tool-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  color: #409eff;
+  margin-bottom: 8px;
+}
+.tool-param, .tool-result {
+  font-size: 12px;
+  color: #666;
+  margin: 4px 0;
+  word-break: break-all;
+}
+
+/* RAG来源 */
+.rag-source {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #67c23a;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #e5e7eb;
+}
