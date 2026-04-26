@@ -184,6 +184,7 @@
                   <el-option label="智谱 GLM" value="glm" />
                   <el-option label="字节 豆包 Doubao" value="doubao" />
                 </el-select>
+                <!-- <button @click="checkHealth">检查后端状态</button> -->
               </div>
               <el-button type="default" v-if="loading" @click="abortStream" class="stop-btn">停止</el-button>
               <el-button type="primary" @click="sendMessage" :loading="loading" v-else class="send-btn">发送</el-button>
@@ -193,6 +194,7 @@
       </template>
     </div>
   </div>
+  
 </template>
 
 <script setup lang="ts">
@@ -206,7 +208,7 @@ import {
 
 // ========== 原生工具 ==========
 import { formatTime } from '@/utils/time'
-import { renderMarkdown, isValidJson } from '@/utils/markdown'
+import { renderMarkdown } from '@/utils/markdown'
 import { hasValidRagSource, getRagSourceText } from '@/utils/rag-utils'
 
 // ========== 通用纯函数工具 ==========
@@ -227,6 +229,19 @@ import { useChatStore } from '@/stores/modules/chat'
 
 //==============API============
 import { checkKnowledgeBaseApi } from "@/api"
+// 前后端连通性 “心跳检测”
+// import { API_BASE_URL } from '@/config/env'
+
+// const checkHealth = async () => {
+//   try {
+//     const res = await fetch(`${API_BASE_URL}/health`)
+//     const data = await res.json()
+//     alert(`后端状态：${data.status} - ${data.message}`)
+//   } catch (err) {
+//     alert('后端服务不可用！')
+//     console.error(err)
+//   }
+// }
 
 // ========== Store 解构 ==========
 const themeStore = useThemeStore()

@@ -36,7 +36,7 @@ export const useChat = (
   const controller = ref<AbortController | null>(null)
 
   /** 发送消息主逻辑（完整原版流式逻辑） */
-  const sendMessage = async (reuseId?: number, addUserMsg = true, targetUserIndex?: number) => {
+  const sendMessage = async (addUserMsg = true, targetUserIndex?: number) => {
     currentToolData.value = null
     replyType.value = 'normal'
 
@@ -183,7 +183,7 @@ export const useChat = (
 
     messageList.value.splice(clickAiIndex - 1, 2)
     inputText.value = oldUserMsg.content.trim()
-    await sendMessage(0, true)
+    await sendMessage(true)
   }
 
   /** 终止流式请求 */

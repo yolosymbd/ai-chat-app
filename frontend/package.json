@@ -23,9 +23,14 @@
     "@types/node": "^24.12.0",
     "@vitejs/plugin-vue": "^6.0.5",
     "@vue/tsconfig": "^0.9.0",
+    "rollup-plugin-visualizer": "^6.0.11",
     "sass": "^1.99.0",
     "typescript": "~5.9.3",
+    "unplugin-auto-import": "^21.0.0",
+    "unplugin-icons": "^23.0.1",
+    "unplugin-vue-components": "^32.0.0",
     "vite": "^8.0.1",
+    "vite-plugin-compression": "^0.5.1",
     "vue-tsc": "^3.2.5"
   }
 }

@@ -26,7 +26,14 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 # 跨域
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    # allow_origins=["*"],
+    allow_origins=[
+        # 本地开发地址
+        "http://localhost:5175",
+        "http://127.0.0.1:5175",
+        # 线上静态网站域名
+        "https://ai-chat-vue-front-d8d2jy6c43054c-1314889124.tcloudbaseapp.com"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -52,6 +59,11 @@ app.include_router(conv_router)
 app.include_router(feedback_router)
 app.include_router(knowledge_router)
 app.include_router(title_router)
+
+# 测试接口，用来验证前后端连通性
+@app.get("/api/health")
+async def health_check():
+    return {"code": 200, "message": "API 服务正常", "status": "ok"}
 
 # 启动
 if __name__ == "__main__":

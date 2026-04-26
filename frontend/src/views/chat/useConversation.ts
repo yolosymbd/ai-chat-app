@@ -94,7 +94,7 @@ export const useConversation = (
     filteredMsgs.forEach((_:ChatMessage, idx:number) => keepIndexSet.add(idx))
     userContentMap.forEach((aiIndexList) => {
       if (aiIndexList.length > 1) {
-        const keepIdx = aiIndexList.at(-1)!
+        aiIndexList.at(-1)!
         aiIndexList.slice(0, -1).forEach(delIdx => keepIndexSet.delete(delIdx))
       }
     })
@@ -109,7 +109,7 @@ export const useConversation = (
     })
     userSelfMap.forEach((userIndexList) => {
       if (userIndexList.length > 1) {
-        const keepIdx = userIndexList.at(-1)!
+        userIndexList.at(-1)!
         userIndexList.slice(0, -1).forEach(delIdx => keepIndexSet.delete(delIdx))
       }
     })

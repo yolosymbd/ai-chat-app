@@ -1,5 +1,7 @@
 # 全部文档解析、清洗、分块、faiss 向量库、混合检索、缓存、提示词构建，原汁原味
 import os
+# 配置国内镜像
+os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 import re
 import pickle
 import numpy as np
@@ -9,6 +11,8 @@ from sentence_transformers import SentenceTransformer
 from PyPDF2 import PdfReader
 import docx
 from app.core.config import DB_PATH
+
+
 
 # 向量模型
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -108,33 +112,33 @@ def load_vector_db():
     return index, chunks
 
 # ===================== 关键词+语义检索 =====================
-def keyword_search(query: str, chunks: list[str], top_k=3):
-    q = query.lower()
-    scores = []
-    for i, c in enumerate(chunks):
-        cnt = c.lower().count(q)
-        scores.append((-cnt, i))
-    scores.sort()
-    res = []
-    seen = set()
-    for s, i in scores[:top_k]:
-        if i not in seen:
-            seen.add(i)
-            res.append(chunks[i])
-    return res
+# def keyword_search(query: str, chunks: list[str], top_k=3):
+#     q = query.lower()
+#     scores = []
+#     for i, c in enumerate(chunks):
+#         cnt = c.lower().count(q)
+#         scores.append((-cnt, i))
+#     scores.sort()
+#     res = []
+#     seen = set()
+#     for s, i in scores[:top_k]:
+#         if i not in seen:
+#             seen.add(i)
+#             res.append(chunks[i])
+#     return res
 
-def semantic_search(query: str, top_k=3):
-    index, chunks = load_vector_db()
-    if not index or not chunks:
-        return []
-    q_emb = embedding_model.encode(query, convert_to_numpy=True)
-    q_emb = np.expand_dims(q_emb, axis=0)
-    D, I = index.search(q_emb, top_k)
-    res = []
-    for i in range(len(I[0])):
-        if D[0][i] < 1.0:
-            res.append(chunks[I[0][i]])
-    return res
+# def semantic_search(query: str, top_k=3):
+#     index, chunks = load_vector_db()
+#     if not index or not chunks:
+#         return []
+#     q_emb = embedding_model.encode(query, convert_to_numpy=True)
+#     q_emb = np.expand_dims(q_emb, axis=0)
+#     D, I = index.search(q_emb, top_k)
+#     res = []
+#     for i in range(len(I[0])):
+#         if D[0][i] < 1.0:
+#             res.append(chunks[I[0][i]])
+#     return res
 
 # ===================== 混合检索+缓存 =====================
 @lru_cache(maxsize=128)

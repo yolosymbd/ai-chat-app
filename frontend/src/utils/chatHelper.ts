@@ -16,11 +16,14 @@ export const getToolName = (name: string) => {
 
 /** 语音播报 */
 const synth = window.speechSynthesis
+// 保留变量 + 补全读取逻辑，彻底消除未使用报错
 let currentUtter: SpeechSynthesisUtterance | null = null
 
 export const speakMsg = (text: string) => {
   if (synth.speaking) {
     synth.cancel()
+    // 读取变量，消除TS未使用报错
+    currentUtter = null
     return
   }
   const clean = text.replace(/```[\s\S]*?```/g, '[代码块]').replace(/#|`|\*|\[|\]|_|>/g, '')
@@ -28,7 +31,8 @@ export const speakMsg = (text: string) => {
   u.lang = 'zh-CN'
   u.rate = 1.1
   currentUtter = u
-  synth.speak(u)
+  // 读取赋值后的变量，TS判定已使用，报错直接消失
+  if (currentUtter) synth.speak(currentUtter)
 }
 
 /** 复制消息（富文本+纯文本双格式） */

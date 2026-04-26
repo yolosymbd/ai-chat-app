@@ -13935,3 +13935,525 @@ ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
 2026-04-23 14:26:51,448 | INFO | HTTP Request: GET https://restapi.amap.com/v3/weather/weatherInfo?city=%E5%BD%93%E5%89%8D%E5%9F%8E%E5%B8%82%E5%90%8D&key=5783973548737353 "HTTP/1.1 200 OK"
 2026-04-23 14:26:52,180 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
 2026-04-23 14:26:52,181 | INFO | gen_title: glm模型生成标题成功 → "实时此刻"
+2026-04-23 19:16:43,395 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-23 19:16:44,099 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:16:45,618 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:16:45,621 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-23 19:16:46,578 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-23 19:16:47,199 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:16:48,196 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:16:48,198 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-23 19:16:50,743 | INFO | 🧠 意图识别：need_tool=True, tool=time
+2026-04-23 19:16:51,425 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:16:52,457 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:16:52,460 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-23 19:16:54,886 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-23 19:16:55,477 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:16:56,505 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:16:56,509 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-23 19:16:59,707 | INFO | 🧠 意图识别：need_tool=True, tool=weather
+2026-04-23 19:17:00,558 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:17:01,102 | INFO | HTTP Request: GET https://restapi.amap.com/v3/weather/weatherInfo?city=%E5%BD%93%E5%89%8D%E5%9F%8E%E5%B8%82%E5%90%8D&key=5783973548737353 "HTTP/1.1 200 OK"
+2026-04-23 19:17:02,467 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:17:02,469 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-23 19:17:09,809 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-23 19:17:10,450 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:17:25,095 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:17:25,096 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-23 19:25:37,649 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-23 19:25:38,288 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:25:39,657 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:25:39,658 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-23 19:25:40,805 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-23 19:25:41,503 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:25:42,562 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:25:42,563 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-23 19:25:47,521 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-23 19:25:48,213 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:25:49,088 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:25:49,092 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-23 19:25:51,210 | INFO | 🧠 意图识别：need_tool=True, tool=time
+2026-04-23 19:25:52,117 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:25:53,327 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:25:53,329 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-23 19:32:45,811 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-23 19:32:46,424 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:32:47,266 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:32:47,268 | INFO | gen_title: glm模型生成标题成功 → “一加一等于？”
+2026-04-23 19:32:48,959 | INFO | 🧠 意图识别：need_tool=True, tool=time
+2026-04-23 19:32:49,518 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:32:50,576 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:32:50,577 | INFO | gen_title: glm模型生成标题成功 → “一加一等于？”
+2026-04-23 19:32:50,860 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-23 19:32:51,511 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:32:52,626 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:32:52,627 | INFO | gen_title: glm模型生成标题成功 → “一加一等于？”
+2026-04-23 19:32:54,937 | INFO | 🧠 意图识别：need_tool=True, tool=time
+2026-04-23 19:32:55,470 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:32:56,946 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-23 19:32:56,947 | INFO | gen_title: glm模型生成标题成功 → “一加一等于？”
+2026-04-24 14:34:05,966 | INFO | Loading faiss with AVX512 support.
+2026-04-24 14:34:05,966 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 14:34:05,966 | INFO | Loading faiss with AVX2 support.
+2026-04-24 14:34:06,152 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 14:34:31,377 | INFO | Use pytorch device_name: cpu
+2026-04-24 14:34:31,377 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 14:34:33,257 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:34:33,522 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 14:34:34,017 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:34:35,401 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 14:34:36,331 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:34:37,071 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 14:34:37,998 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:34:39,334 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-24 14:34:39,728 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:34:39,963 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 14:34:40,362 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:34:40,577 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-24 14:34:43,844 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 14:34:44,259 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:34:44,943 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 14:34:46,828 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:34:47,496 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 14:34:48,430 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:34:48,691 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-24 14:34:49,308 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-24 14:34:49,574 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-24 14:34:50,027 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:34:50,319 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-24 14:34:50,589 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-24 14:34:51,339 | INFO | Loading faiss with AVX512 support.
+2026-04-24 14:34:51,339 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 14:34:51,339 | INFO | Loading faiss with AVX2 support.
+2026-04-24 14:34:51,364 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 14:34:56,970 | INFO | Use pytorch device_name: cpu
+2026-04-24 14:34:56,970 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 14:34:58,675 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:34:58,921 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 14:35:01,435 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:35:01,679 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 14:35:04,257 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:35:04,996 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 14:35:05,417 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:35:06,874 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-24 14:35:07,753 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:35:10,143 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 14:35:11,135 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:35:11,829 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-24 14:35:13,408 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 14:35:13,863 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:35:14,530 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 14:35:15,967 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:35:17,713 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 14:35:18,298 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:35:18,651 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-24 14:35:19,377 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-24 14:35:19,648 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-24 14:35:20,891 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 14:35:21,123 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-24 14:35:21,440 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-24 14:35:41,073 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-24 14:35:41,694 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 14:35:43,160 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 14:35:43,160 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-24 14:35:48,255 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-24 14:35:49,754 | INFO | HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 14:35:54,392 | INFO | HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 14:35:54,392 | INFO | gen_title: doubao模型生成标题成功 → 你好
+2026-04-24 16:03:12,340 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-24 16:03:13,597 | INFO | HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 16:03:52,107 | ERROR | gen_title: doubao模型调用大模型失败 → 
+2026-04-24 16:04:06,353 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-24 16:04:07,103 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 16:04:29,810 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 16:04:29,812 | INFO | gen_title: glm模型生成标题成功 → Vue3计数器
+2026-04-24 16:05:50,515 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-24 16:05:51,407 | INFO | HTTP Request: POST https://ark.cn-beijing.volces.com/api/v3/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 16:06:06,156 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-24 16:06:06,891 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 16:06:08,593 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 16:06:08,593 | INFO | gen_title: glm模型生成标题成功 → 你是谁？
+2026-04-24 16:06:10,051 | ERROR | gen_title: doubao模型调用大模型失败 → 
+2026-04-24 16:10:53,193 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-24 16:10:54,577 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 16:10:55,852 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 16:10:55,855 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-24 21:33:12,113 | INFO | Loading faiss with AVX512 support.
+2026-04-24 21:33:12,113 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 21:33:12,113 | INFO | Loading faiss with AVX2 support.
+2026-04-24 21:33:12,295 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 21:33:40,441 | INFO | Use pytorch device_name: cpu
+2026-04-24 21:33:40,441 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 21:33:52,776 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:33:53,042 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 21:33:55,963 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:33:56,584 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 21:33:56,944 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:33:58,005 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 21:33:58,367 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:34:00,649 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-24 21:34:03,606 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:34:05,888 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 21:34:06,307 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:34:06,613 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-24 21:34:06,945 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 21:34:08,650 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:34:08,915 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 21:34:09,412 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:34:09,571 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 21:34:40,460 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-24 21:36:10,369 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-24 21:38:31,180 | INFO | Loading faiss with AVX512 support.
+2026-04-24 21:38:31,180 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 21:38:31,180 | INFO | Loading faiss with AVX2 support.
+2026-04-24 21:38:31,203 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 21:38:35,944 | INFO | Use pytorch device_name: cpu
+2026-04-24 21:38:35,944 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 21:39:08,914 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:39:12,959 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 21:39:13,307 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:39:13,464 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-24 21:39:15,585 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:39:17,050 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 21:39:28,397 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 21:39:29,859 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:39:30,555 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 21:39:37,734 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:39:38,017 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 21:39:39,962 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:39:40,184 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-24 21:41:29,857 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-24 21:57:12,456 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:57:16,483 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-24 21:57:16,672 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-24 21:57:17,450 | INFO | Loading faiss with AVX512 support.
+2026-04-24 21:57:17,450 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 21:57:17,450 | INFO | Loading faiss with AVX2 support.
+2026-04-24 21:57:17,483 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 21:57:22,842 | INFO | Use pytorch device_name: cpu
+2026-04-24 21:57:22,844 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 21:57:35,616 | INFO | Loading faiss with AVX512 support.
+2026-04-24 21:57:35,616 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 21:57:35,616 | INFO | Loading faiss with AVX2 support.
+2026-04-24 21:57:35,632 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 21:57:40,796 | INFO | Use pytorch device_name: cpu
+2026-04-24 21:57:40,796 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 21:57:41,004 | WARNING | '[Errno 11001] getaddrinfo failed' thrown while requesting HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-04-24 21:57:41,004 | WARNING | Retrying in 1s [Retry 1/5].
+2026-04-24 21:58:26,186 | INFO | Loading faiss with AVX512 support.
+2026-04-24 21:58:26,186 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 21:58:26,186 | INFO | Loading faiss with AVX2 support.
+2026-04-24 21:58:26,202 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 21:58:31,081 | INFO | Use pytorch device_name: cpu
+2026-04-24 21:58:31,081 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 21:59:02,016 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:59:10,713 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 21:59:18,303 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:59:19,622 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-24 21:59:20,904 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:59:21,234 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 21:59:26,092 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:59:30,040 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-24 21:59:34,773 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 21:59:44,749 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 21:59:59,951 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:00:08,119 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 22:00:25,785 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-24 22:00:32,993 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-24 22:01:17,940 | INFO | Loading faiss with AVX512 support.
+2026-04-24 22:01:17,940 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 22:01:17,940 | INFO | Loading faiss with AVX2 support.
+2026-04-24 22:01:17,960 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 22:01:22,925 | INFO | Use pytorch device_name: cpu
+2026-04-24 22:01:22,925 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 22:01:25,152 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:01:26,337 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 22:01:27,065 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:01:27,790 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 22:01:31,582 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:01:35,995 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 22:02:00,731 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:02:03,540 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 22:02:04,481 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:02:05,255 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-24 22:02:06,527 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 22:02:21,016 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:02:25,595 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 22:02:26,741 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:02:27,510 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-24 22:02:37,553 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-24 22:02:38,717 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-24 22:03:50,443 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:03:51,448 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-24 22:03:53,321 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-24 22:03:54,021 | INFO | Loading faiss with AVX512 support.
+2026-04-24 22:03:54,021 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 22:03:54,021 | INFO | Loading faiss with AVX2 support.
+2026-04-24 22:03:54,044 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 22:03:59,583 | INFO | Use pytorch device_name: cpu
+2026-04-24 22:03:59,583 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 22:04:14,853 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:04:15,189 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 22:04:15,602 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:04:15,844 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 22:04:16,835 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:04:17,168 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-24 22:05:33,045 | INFO | Loading faiss with AVX512 support.
+2026-04-24 22:05:33,045 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 22:05:33,045 | INFO | Loading faiss with AVX2 support.
+2026-04-24 22:05:33,061 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 22:05:37,946 | INFO | Use pytorch device_name: cpu
+2026-04-24 22:05:37,950 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 22:05:50,468 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:05:50,714 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 22:06:18,388 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:06:18,574 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-24 22:06:25,409 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:06:28,093 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 22:06:28,457 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:06:43,795 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 22:06:44,170 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:06:44,443 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 22:06:45,417 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:06:46,637 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 22:06:48,131 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:06:48,306 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-24 22:07:02,779 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-24 22:10:39,024 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-24 22:10:39,952 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:10:40,903 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-24 22:10:42,744 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-24 22:10:43,431 | INFO | Loading faiss with AVX512 support.
+2026-04-24 22:10:43,431 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 22:10:43,431 | INFO | Loading faiss with AVX2 support.
+2026-04-24 22:10:43,452 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 22:10:48,428 | INFO | Use pytorch device_name: cpu
+2026-04-24 22:10:48,428 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 22:10:58,492 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:10:58,745 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 22:11:04,586 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:11:05,436 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 22:11:08,502 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:11:09,733 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 22:11:14,489 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:11:16,094 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-24 22:11:30,289 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:11:30,463 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-24 22:11:32,393 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 22:11:33,187 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:11:34,070 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 22:11:37,587 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:11:37,773 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 22:11:53,737 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-24 22:11:59,932 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-24 22:12:01,405 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:12:02,294 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-24 22:12:12,536 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-24 22:14:12,959 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-24 22:14:13,823 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 22:14:15,128 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 22:14:15,132 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-24 22:38:34,706 | INFO | Loading faiss with AVX512 support.
+2026-04-24 22:38:34,707 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 22:38:34,707 | INFO | Loading faiss with AVX2 support.
+2026-04-24 22:38:34,723 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 22:38:40,980 | INFO | Loading faiss with AVX512 support.
+2026-04-24 22:38:40,980 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 22:38:40,981 | INFO | Loading faiss with AVX2 support.
+2026-04-24 22:38:40,995 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 22:38:42,985 | INFO | FakeTensor cache stats:
+2026-04-24 22:38:42,985 | INFO |   cache_hits: 0
+2026-04-24 22:38:42,985 | INFO |   cache_misses: 0
+2026-04-24 22:38:43,898 | INFO | Loading faiss with AVX512 support.
+2026-04-24 22:38:43,898 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 22:38:43,898 | INFO | Loading faiss with AVX2 support.
+2026-04-24 22:38:43,913 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 22:38:48,919 | INFO | Use pytorch device_name: cpu
+2026-04-24 22:38:48,919 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 22:39:05,324 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:39:05,930 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 22:39:07,184 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:39:09,104 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 22:39:20,481 | INFO | Loading faiss with AVX512 support.
+2026-04-24 22:39:20,482 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-24 22:39:20,482 | INFO | Loading faiss with AVX2 support.
+2026-04-24 22:39:20,501 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-24 22:39:25,774 | INFO | Use pytorch device_name: cpu
+2026-04-24 22:39:25,774 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-24 22:39:28,749 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:39:28,905 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 22:39:32,845 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:39:35,403 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 22:39:36,385 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:39:37,576 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-24 22:39:37,943 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:39:41,486 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-24 22:39:41,815 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:39:42,098 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-24 22:39:42,419 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:39:44,180 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-24 22:39:46,607 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 22:40:06,384 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:40:06,557 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-24 22:40:12,144 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:40:27,205 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-24 22:40:27,688 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-24 22:40:29,122 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 22:40:29,877 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-24 22:40:30,219 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-24 22:43:20,509 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-24 22:43:21,220 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 22:43:23,090 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 22:43:23,090 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-24 23:21:05,751 | INFO | 🧠 意图识别：need_tool=False, tool=None
+2026-04-24 23:21:06,687 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 23:21:07,645 | INFO | HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-04-24 23:21:07,647 | INFO | gen_title: glm模型生成标题成功 → 简短问候
+2026-04-25 14:09:49,590 | INFO | Loading faiss with AVX512 support.
+2026-04-25 14:09:49,590 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-25 14:09:49,591 | INFO | Loading faiss with AVX2 support.
+2026-04-25 14:09:49,668 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-25 14:10:12,029 | INFO | Use pytorch device_name: cpu
+2026-04-25 14:10:12,029 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-25 14:10:45,487 | WARNING | '[Errno 11001] getaddrinfo failed' thrown while requesting HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-04-25 14:10:45,488 | WARNING | Retrying in 1s [Retry 1/5].
+2026-04-25 14:12:19,107 | INFO | Loading faiss with AVX512 support.
+2026-04-25 14:12:19,108 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-25 14:12:19,108 | INFO | Loading faiss with AVX2 support.
+2026-04-25 14:12:19,127 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-25 14:12:23,762 | INFO | Use pytorch device_name: cpu
+2026-04-25 14:12:23,762 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-25 14:12:24,680 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:24,956 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:25,282 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:25,570 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:25,907 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:26,115 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:26,474 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:26,633 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-25 14:12:27,275 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:27,765 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:28,686 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:29,269 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:30,028 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 14:12:30,384 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:30,575 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:31,671 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:32,195 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:32,546 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:32,823 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:33,011 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-25 14:12:33,427 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-25 14:12:33,820 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:34,351 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:34,518 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-25 14:12:35,189 | INFO | Loading faiss with AVX512 support.
+2026-04-25 14:12:35,189 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-25 14:12:35,189 | INFO | Loading faiss with AVX2 support.
+2026-04-25 14:12:35,204 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-25 14:12:39,826 | INFO | Use pytorch device_name: cpu
+2026-04-25 14:12:39,826 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-25 14:12:41,976 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:42,148 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:43,077 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:43,378 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:43,829 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:44,039 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:44,432 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:44,635 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-25 14:12:44,994 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:45,716 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:46,797 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:46,986 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:47,368 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 14:12:47,730 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:47,924 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:48,362 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:48,656 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:49,551 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:49,831 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:50,028 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-25 14:12:50,243 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-25 14:12:50,641 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 14:12:51,270 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-25 14:12:51,701 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-25 19:29:18,236 | INFO | Loading faiss with AVX512 support.
+2026-04-25 19:29:18,238 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-25 19:29:18,238 | INFO | Loading faiss with AVX2 support.
+2026-04-25 19:29:18,471 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-25 19:29:50,996 | INFO | Use pytorch device_name: cpu
+2026-04-25 19:29:50,996 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-25 19:29:51,874 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:29:53,580 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-25 19:29:54,326 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:29:54,920 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 19:29:55,629 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:29:56,526 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 19:29:57,569 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:29:57,837 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-25 19:29:58,499 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:29:58,692 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-25 19:29:59,982 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:00,491 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:00,856 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 19:30:01,209 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:01,397 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:01,983 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:02,169 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:02,578 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:03,058 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:03,579 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-25 19:30:04,608 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-25 19:30:05,621 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:05,779 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:05,951 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-25 19:30:06,742 | INFO | Loading faiss with AVX512 support.
+2026-04-25 19:30:06,743 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-04-25 19:30:06,743 | INFO | Loading faiss with AVX2 support.
+2026-04-25 19:30:06,805 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-25 19:30:13,379 | INFO | Use pytorch device_name: cpu
+2026-04-25 19:30:13,379 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-04-25 19:30:14,410 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:14,583 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:15,785 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:16,383 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:16,715 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:16,880 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:17,242 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:17,400 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-25 19:30:17,729 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:18,010 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:18,661 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:18,823 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:19,193 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 19:30:20,007 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:20,172 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:20,644 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:20,806 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:21,598 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:21,861 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:22,032 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-25 19:30:22,207 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-25 19:30:22,868 | INFO | HTTP Request: HEAD https://hf-mirror.com/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:30:23,029 | INFO | HTTP Request: HEAD https://hf-mirror.com/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-25 19:30:24,517 | INFO | HTTP Request: GET https://hf-mirror.com/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"

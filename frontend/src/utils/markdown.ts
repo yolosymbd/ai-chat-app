@@ -1,7 +1,32 @@
 import { marked } from "marked"
-import hljs from "highlight.js"
+// import hljs from "highlight.js"
 import { markedHighlight } from "marked-highlight"
+// import "highlight.js/styles/vs2015.css"
+
+// ======================
+// ✅ 按需引入 highlight.js
+// ======================
+import hljs from "highlight.js/lib/core"
+// 只引入你项目用到的语言
+import javascript from "highlight.js/lib/languages/javascript"
+import python from "highlight.js/lib/languages/python"
+import java from "highlight.js/lib/languages/java"
+import html from "highlight.js/lib/languages/xml"
+import css from "highlight.js/lib/languages/css"
+import json from "highlight.js/lib/languages/json"
+import bash from "highlight.js/lib/languages/bash"
+// 只引入你用的样式
 import "highlight.js/styles/vs2015.css"
+
+// 注册语言
+hljs.registerLanguage("javascript", javascript)
+hljs.registerLanguage("python", python)
+hljs.registerLanguage("java", java)
+hljs.registerLanguage("html", html)
+hljs.registerLanguage("css", css)
+hljs.registerLanguage("json", json)
+hljs.registerLanguage("bash", bash)
+
 
 // marked基础全局配置
 marked.setOptions({
