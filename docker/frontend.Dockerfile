@@ -1,16 +1,15 @@
-# 构建阶段
-FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/node:18-alpine AS build
+FROM node:20-alpine AS build
 
 WORKDIR /app
 
-COPY package*.json ./
-RUN npm install --registry=https://registry.npmmirror.com
+# 关键：从 frontend/ 目录复制文件
+COPY frontend/package*.json ./
+RUN npm install --force --legacy-peer-deps
 
-COPY . .
+COPY frontend/ .
 RUN npm run build
 
-# 运行阶段
-FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/nginx:alpine
+FROM nginx:alpine
 
 COPY --from=build /app/dist /usr/share/nginx/html
 COPY ./docker/nginx.conf /etc/nginx/conf.d/default.conf

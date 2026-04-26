@@ -1,5 +1,4 @@
 services:
-  # 后端 FastAPI
   backend:
     build:
       context: .
@@ -12,17 +11,12 @@ services:
       - ./backend/chat.db:/app/chat.db
       - ./backend/faiss.index:/app/faiss.index
       - ./backend/chunks.pkl:/app/chunks.pkl
+      - ./backend/.env:/app/.env
     env_file:
       - ./backend/.env
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9000/health"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
     networks:
       - ai-network
 
-  # 前端 Vue + Nginx
   frontend:
     build:
       context: .
@@ -32,11 +26,9 @@ services:
     ports:
       - "80:80"
     depends_on:
-      backend:
-        condition: service_healthy
+      - backend
     networks:
       - ai-network
 
 networks:
   ai-network:
-    driver: bridge

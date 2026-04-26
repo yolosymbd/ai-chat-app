@@ -1,3 +1,6 @@
+# 在文件最顶部，先加这个
+import sys
+import traceback
 # 所有初始化、跨域、限流、异常捕获、路由挂载全部在这里，启动不变
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -48,7 +51,20 @@ async def global_exception_handler(request: Request, exc: Exception):
     )
 
 # 数据库初始化
-init_db()
+try:
+    init_db()
+except Exception as e:
+    print(f"数据库初始化失败，但服务继续启动：{e}")
+
+# 或者给数据库连接加 try-except
+# def get_db_connection():
+#     try:
+#         conn = sqlite3.connect(DB_PATH, check_same_thread=False, timeout=10)
+#         return conn
+#     except Exception as e:
+#         print(f"数据库连接失败: {e}")
+#         # 这里可以返回一个空连接或者直接退出，避免服务崩溃
+#         raise
 
 # 批量挂载所有路由
 # for router in routers:
@@ -65,7 +81,16 @@ app.include_router(title_router)
 async def health_check():
     return {"code": 200, "message": "API 服务正常", "status": "ok"}
 
-# 启动
+# # 启动
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run("main:app", host="0.0.0.0", port=9000, reload=True)
+# 然后在文件末尾，把 app.run() 改成这样：
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=9000, reload=True)
+    try:
+        import uvicorn
+        uvicorn.run("main:app", host="0.0.0.0", port=9000)
+    except Exception as e:
+        print(f"服务启动失败: {e}")
+        traceback.print_exc()
+        sys.exit(1)
