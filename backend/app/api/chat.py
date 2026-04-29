@@ -118,7 +118,14 @@ async def chat_stream(messages, temperature=0, top_p=0.7, max_tokens=2048, strea
 
     full = ""
     try:
-        async with httpx.AsyncClient(timeout=30.0) as client:
+        # ======================
+        # ✅ 修复：超时 120 秒 + 允许重定向 + 解决线上网络问题
+        # ======================
+        async with httpx.AsyncClient(
+            timeout=120.0,
+            follow_redirects=True
+        ) as client:
+
             async with client.stream("POST", API_URL, json=payload, headers=headers) as resp:
                 resp.raise_for_status()
                 async for line in resp.aiter_lines():

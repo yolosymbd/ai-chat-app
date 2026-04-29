@@ -36,7 +36,7 @@ async def gen_title(request: Request):
         if not API_KEY:
             logger.error(f"gen_title: {model_type} 模型API Key为空，终止标题生成")
             return {"ok": False, "error": "模型密钥无效"}
-        async with httpx.AsyncClient(timeout=10.0) as client:
+        async with httpx.AsyncClient(timeout=60.0) as client:
             resp = await client.post(API_URL, headers={
                 "Authorization": f"Bearer {API_KEY}"
             }, json={
