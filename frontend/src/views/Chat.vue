@@ -278,7 +278,7 @@ const { loadConvs, newChat, switchConv, delConv, clearAllChat } = useConversatio
 )
 // 核心聊天发送逻辑
 const { sendMessage, reGenerate, abortStream, reSend } = useChat(
-  inputText, msgContainer, replyType, currentToolData, loadRateFromLocal, loadFeedbackFromBackend, loadConvs
+  inputText, msgContainer, replyType, currentToolData, loadRateFromLocal, loadFeedbackFromBackend, loadConvs,newChat
 )
 
 // ========== 页面生命周期 ==========

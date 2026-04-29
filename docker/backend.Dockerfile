@@ -1,5 +1,9 @@
 FROM python:3.12-slim
 
+# ✅ 北京时间 永久生效（你就差这两行）
+ENV TZ=Asia/Shanghai
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
 WORKDIR /app
 
 # 只装 curl 方便调试

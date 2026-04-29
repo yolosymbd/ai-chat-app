@@ -1,5 +1,5 @@
 // 核心聊天 Hook：发送、流式、重生成、终止
-import { ref, reactive, Ref } from 'vue'
+import { ref, reactive, Ref, nextTick } from 'vue'
 import { ElMessage } from 'element-plus'
 import { storeToRefs } from 'pinia'
 import type { ChatMessage, ReplyType, ToolCallData } from '@/types/chat'
@@ -21,7 +21,8 @@ export const useChat = (
   currentToolData: Ref<ToolCallData | null>,
   loadRateFromLocal: Function,
   loadFeedbackFromBackend: Function,
-  loadConvs: Function
+  loadConvs: Function,
+  newChat: Function  // 👈 必须接收
 ) => {
   // store 注入
   const chatStore = useChatStore()
@@ -40,9 +41,13 @@ export const useChat = (
     currentToolData.value = null
     replyType.value = 'normal'
 
+    // ======================
+    // ✅ 正确修复：自动创建对话，永不弹窗
+    // ======================
     if (currentConvId.value === null) {
-      ElMessage.warning('请先新建对话')
-      return
+      await newChat()
+      await loadConvs()
+      await nextTick()
     }
 
     const val = inputText.value?.trim()
